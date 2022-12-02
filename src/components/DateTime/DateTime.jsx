@@ -1,6 +1,8 @@
 import React from 'react'
+import { DateTimePretty } from '../HOC/DateTimePretty';
 
-export const DateTime = (props) => {
-    console.log(props.date)
+const DateTime = (props) => {
     return <p className="date">{props.date}</p>;
 }
+
+export default DateTimePretty(DateTime)

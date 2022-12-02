@@ -1,5 +1,5 @@
 import React from 'react'
-import { DateTime } from '../DateTime/DateTime';
+import DateTime from '../DateTime/DateTime';
 
 export const VideoItem = (props) => {
     return (

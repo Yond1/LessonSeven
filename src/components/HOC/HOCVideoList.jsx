@@ -1,4 +1,3 @@
-import { VideoList } from "../VideoList/VideoList";
 
 export const HOCVideo = (props) => (Component) => {
 
